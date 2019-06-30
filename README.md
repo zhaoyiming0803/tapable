@@ -16,3 +16,9 @@ const {
   AsyncSeriesWaterfallHook 
 } = require("tapable");
 ```
+
+参考：
+
+[Tapbal](https://www.npmjs.com/package/tapable)
+
+[Promise](https://github.com/zymfe/Promise)
