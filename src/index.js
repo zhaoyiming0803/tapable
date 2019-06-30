@@ -1,6 +1,6 @@
 const SyncHook = require('./sync-hook');
 const SyncBailHook = require('./sync-bail-hook');
-const SyncWaterfullHook = require('./sync-waterfull-hook');
+const SyncWaterfallHook = require('./sync-waterfall-hook');
 const SyncLoopHook = require('./sync-loop-hook');
 const AsyncParalleHook = require('./async-paralle-hook');
 const AsyncParalleBailHook = require('./async-paralle-bail-hook');
@@ -10,7 +10,7 @@ const AsyncSeriesBailHook = require('./async-series-bail-hook');
 module.exports = {
   SyncHook,
   SyncBailHook,
-  SyncWaterfullHook,
+  SyncWaterfallHook,
   SyncLoopHook,
   AsyncParalleHook,
   AsyncParalleBailHook,

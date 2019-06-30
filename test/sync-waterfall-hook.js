@@ -1,8 +1,8 @@
 const {
-  SyncWaterfullHook
+  SyncWaterfallHook
 } = require('../src/index');
 
-const s = new SyncWaterfullHook();
+const s = new SyncWaterfallHook();
 
 s.tap('node', args => {
   console.log('node', args);

@@ -1,4 +1,4 @@
-class SyncWaterfullHook {
+class SyncWaterfallHook {
   constructor () {
     this.tasks = [];
   }
@@ -23,4 +23,4 @@ class SyncWaterfullHook {
   }
 }
 
-module.exports = SyncWaterfullHook;
+module.exports = SyncWaterfallHook;
